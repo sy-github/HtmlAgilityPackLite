@@ -148,7 +148,15 @@ namespace HtmlAgilityPack
 		{
 			_documentnode = CreateNode(HtmlNodeType.Document, 0);
             OptionDefaultStreamEncoding =Encoding.UTF8;
-		}
+        }
+
+		/// <summary>
+		/// Creates an instance of an HTML document from give HTML string.
+		/// </summary>
+        public HtmlDocument(string html) : this()
+        {
+            LoadHtml(html);
+        }
 
 		#endregion
 
