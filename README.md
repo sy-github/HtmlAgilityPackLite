@@ -1,5 +1,5 @@
 # HtmlAgilityPackLite
-Portable version of HtmlAgilityPack, forked from 1.4.9. This library is for all types of .NET projects.  
+Portable version of HtmlAgilityPack, forked from 1.4.9. This library conforms with .Net Standard 2.0 and is suitable for all types of .NET projects.
 
 ## Changelog:  
 1.5.0:  
